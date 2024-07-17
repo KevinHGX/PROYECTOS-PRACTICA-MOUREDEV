@@ -28,7 +28,7 @@ La práctica incluye la implementación de diversos proyectos propuestos por Mou
  */
 
 - [CONECTA 4](https://github.com/KevinHGX/PROYECTOS-PRACTICA-MOUREDEV/tree/conecta4)
- 
+
 ## REACT - VITE
 ![REACT](P_1_Conecta_4/ReactVite/capturas/scrnli_30_5_2024_8-20-17%20p-m-.png)
 ## C++ | SDL2
