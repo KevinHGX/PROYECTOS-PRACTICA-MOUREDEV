@@ -1,0 +1,77 @@
+@use "../themes/position";
+@use "../abstract/colors";
+@use "../abstract/fonts";
+
+.container-Data{
+	margin-top: 2rem;
+	@include Position_Center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	#title{
+		@include Space_Grotesk(600);
+		width:50%;
+		font-size: var(--font-size-lg);
+		text-align: center;
+		background: var(--color-select-pink);
+		color:var(--color-gray);
+		border-radius: 2px;
+	}
+
+	#score{
+		@include Space_Grotesk(400);
+		font-size: var(--font-size-sm);
+		color:var(--color-bg-blue);
+	}
+
+	#info{
+		@include Space_Grotesk(400);
+		font-size: var(--font-size-xs);
+		color:var(--color-gray);
+	}
+
+	#form{
+		background: transparent;
+		border:none;
+		input{
+			@include Space_Grotesk(400);
+			font-size: var(--font-size-xs);
+			padding: 1rem 0;
+		}
+
+	}
+
+	#buttons{
+		display:flex;
+		flex-direction:row;
+		justify-content: space-around;
+		gap:2rem;
+
+		button{
+			@include Space_Grotesk(400);
+			background:transparent;
+			padding: 1rem 1.5rem;
+			color: var(--color-bg-black);
+			border-radius: 2px solid var(--color-bg-blue);
+			&:hover{
+				cursr:pointer;
+			}
+		}
+
+		#cancel{
+			&:hover,&:focus{
+	            box-shadow: inset 0 -3.25em 0 0 var(--color-select-pink);
+			}
+		}
+
+		#send{
+			&:hover,&:focus{
+				box-shadow: inset 0 -3.25em 0 0 var(--color-select-green);
+			}
+		}
+
+	}
+
+
+}

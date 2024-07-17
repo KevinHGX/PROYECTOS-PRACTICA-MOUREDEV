@@ -1,0 +1,153 @@
+@use "../themes/position";
+@use "../abstract/colors";
+@use "../abstract/fonts";
+
+
+.container-Quiz{
+	margin-top: 2rem;
+	@include Position_Center;
+	//height: 70%;
+	display: flex;
+    flex-direction: column;
+	gap:3px;
+	background: var(--color-gray);
+	padding: 3rem;
+
+	#counter{
+		position:absolute;
+		top:0;
+	}
+
+	#num-question{
+		color: var(--color-white);
+	}
+
+	#question{
+		@include Space_Grotesk(400);
+        font-size: var(--font-size-sm);
+        color: var(--color-bg-blue);
+        width:90%;
+        max-width: 90ch;
+        text-align: center;
+		box-shadow: 0 10px 0 0 gray;
+		margin-bottom: 30px;
+	}
+
+	.options{
+		border:none;
+		list-style: none;
+		width:75%;
+		margin:auto;
+		display:grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		text-align: center;
+		background:var(--color-white);
+
+<<<<<<< HEAD
+=======
+		#selected{
+			background: var(--color-bg-blue);
+			color: var(--color-white);			
+		}
+
+		.correct_answer{
+			background: var(--color-select-pink);
+			color: var(--color-white);
+		}
+
+		.wrong-answers{
+			background: var(--color-gray);
+			color: var(--color-white);
+		}
+
+>>>>>>> develop
+		li{
+			padding:1rem 2rem;
+			transition: 1s ease-out;
+
+			&:hover{
+				cursor: pointer;
+				background: var(--color-bg-blue);
+				color: var(--color-white);
+				transition: 1s ease-out;
+			}
+		}
+	}
+
+
+	/*----------  Counter  ----------*/
+	
+	#timer{
+	  display:flex;
+	  //position: relative;
+	  margin-bottom:2rem;
+	  
+	  #sec{
+	      position:absolute;
+	      width:100%;
+	      top:23%;
+	      display: flex;
+	      flex-direction:column;
+	      align-items: center;
+	      text-align:center;
+	      font-weight: 500;
+	      letter-spacing:0.1rem;
+	      color:#fff;
+	      font-size: 2rem;
+	    
+	    }
+	  
+		  .circle{
+		    position: relative;
+		    width:70px;
+		    height:70px;
+		    
+		    .dots{
+		      position:absolute;
+		      width:100%;
+		      height:100%;
+		      border-radius:50%;
+		      display:flex;
+		      justify-content:center;
+		      align-items:flex-start;
+		      z-index:1000;
+		      
+		      &:before{
+		        content:'';
+		        position:absolute;
+		        width:15px;
+		        height:15px;
+		        background:var(--clr);
+		        top:-3px;
+		        border-radius:50%;
+		        box-shadow: 0 0 15px var(--clr);
+		      }
+		    }
+		    
+		    svg{
+		      position:relative;
+		      width:150px;
+		      height:150px;
+		      //transform: rotate(270deg);
+		      
+		      circle{
+		        width:100%;
+		        height:100%;
+		        fill: transparent;
+		        stroke-width:8;
+		        stroke: #282828;
+		        stroke-linecap: round;
+		        transform:translate(5px,5px);
+		        
+		        &:nth-child(2){
+		          stroke: var(--clr);
+		          stroke-dasharray: 440;
+		          stroke-dashoffset: 440;
+		        }
+		      }
+		    }
+		  }
+		}
+
+}
