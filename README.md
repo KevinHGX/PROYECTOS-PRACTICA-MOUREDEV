@@ -11,6 +11,8 @@ La práctica incluye la implementación de diversos proyectos propuestos por Mou
 
 ## <img src="https://raw.githubusercontent.com/SamHerbert/SVG-Loaders/5deed925369e57e9c58ba576ce303466984db501/svg-loaders/bars.svg" width = 20px> PROYECTO 1 >> CONECTA 4 
 ## Descripcion:
+- [PROYECTO CONECTA-4](https://github.com/KevinHGX/PROYECTOS-PRACTICA-MOUREDEV/tree/conecta4)
+  
 /*
  * Crea el juego conecta cuatro.
  *
@@ -27,8 +29,6 @@ La práctica incluye la implementación de diversos proyectos propuestos por Mou
  * - Puedes añadirle todas las funcionalidades extra que consideres.
  */
 
-- [CONECTA 4](https://github.com/KevinHGX/PROYECTOS-PRACTICA-MOUREDEV/tree/conecta4)
-
 ## REACT - VITE
 ![REACT](https://github.com/KevinHGX/PROYECTOS-PRACTICA-MOUREDEV/blob/conecta4/P_1_Conecta_4/ReactVite/capturas/scrnli_30_5_2024_8-20-17%20p-m-.png)
 ## C++ | SDL2
@@ -36,6 +36,7 @@ La práctica incluye la implementación de diversos proyectos propuestos por Mou
 
 # <img src="https://raw.githubusercontent.com/SamHerbert/SVG-Loaders/5deed925369e57e9c58ba576ce303466984db501/svg-loaders/bars.svg" width = 20px> PROYECTO 2 "ENCICLOPEDIA STAR WARS"
 ## Descripcion:
+ - [PROYECTO ENCICLOPEDIA](https://github.com/KevinHGX/PROYECTOS-PRACTICA-MOUREDEV/tree/enciclopedia)
 
 /*
  * Crea una app que sirva para listar los personajes de Star Wars y que te permita
@@ -58,6 +59,7 @@ La práctica incluye la implementación de diversos proyectos propuestos por Mou
 
 # <img src="https://raw.githubusercontent.com/SamHerbert/SVG-Loaders/5deed925369e57e9c58ba576ce303466984db501/svg-loaders/bars.svg" width = 20px> PROYECTO 3 "QUIZ"
 ##Descripcion
+- [PROYECTO QUIZ](https://github.com/KevinHGX/PROYECTOS-PRACTICA-MOUREDEV/tree/quiz)
 
 /*
  * Crea una "Quiz app" contrareloj con ranking.
@@ -89,10 +91,7 @@ La práctica incluye la implementación de diversos proyectos propuestos por Mou
  *   a la pantalla inicial.
  */
 
-## REACT | Aun en Desarrollo, (logica de puntuscion y guardado en BD del jugador)
+## REACT | VITE
 ![Parte Inicial "BIENVENIDA"](https://github.com/KevinHGX/PROYECTOS-PRACTICA-MOUREDEV/blob/quiz/P_3_Quiz/Quiz_Api/Captura/inicio.png) 
 
 ![Parte Selectl "SELECT CATEGORY/LEVELS "](https://github.com/KevinHGX/PROYECTOS-PRACTICA-MOUREDEV/blob/quiz/P_3_Quiz/Quiz_Api/Captura/select.png) 
-
-
-
